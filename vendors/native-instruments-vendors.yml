@@ -1,0 +1,53 @@
+generated: '2026-09-22'
+method: probed
+source: pre-flight dossier (docs platform, portal detections) + CNAME chains and response headers of the hosts apis.yml names
+registry: all/0-working/vendors.yml
+areas_vocabulary:
+- documentation
+- developer-portal
+- api-gateway
+- cdn
+- hosting
+- sdk-generation
+- api-collections
+- status-page
+- support
+- community
+- identity
+- mcp-hosting
+vendors:
+- vendor: cloudflare
+  name: Cloudflare
+  area: cdn
+  host: www.native-instruments.com
+  evidence: header:cf-ray
+  signal: header
+  confidence: high
+  kin_score:
+  - https_enforced
+  - hsts
+- vendor: shopify
+  name: Shopify
+  area: hosting
+  host: www.native-instruments.com
+  evidence: cname:myshopify.com
+  signal: cname
+  confidence: high
+  kin_score: []
+- vendor: freshdesk
+  name: Freshdesk
+  area: support
+  host: support.native-instruments.com
+  evidence: cname:freshdesk.com
+  signal: cname
+  confidence: high
+  kin_score:
+  - support_channel
+checked:
+- 'docs-platform: unreachable'
+- www.native-instruments.com (Website)
+- developer.native-instruments.com (DeveloperPortal)
+- developer.native-instruments.com (APIReference)
+- developer.native-instruments.com (GettingStarted)
+- support.native-instruments.com (Support)
+- account.native-instruments.com (SignUp)

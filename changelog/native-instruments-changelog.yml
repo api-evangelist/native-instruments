@@ -1,0 +1,82 @@
+generated: '2026-09-22'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://developer.native-instruments.com/komplete-ui/docs/CHANGELOG
+sources:
+- https://developer.native-instruments.com/komplete-ui/docs/CHANGELOG
+entries:
+- breaking: false
+  highlights:
+  - The experimental audio_components package introduced in Kontakt 8.10, with the Waveform component and the Sample interface, is now stable
+  - Renamed SampleRange to VisibleRange
+  - Added Instrument class and instrument variable providing access to the current Kontakt instrument (replacing the experimental Program class
+    and program variable)
+  - Added Group, GroupList, and GroupListIterator classes for working with instrument groups; zones are created via add_zone
+  version: '8.12'
+- breaking: false
+  highlights:
+  - Added letter_spacing parameter to Text and TextInput components, and the LetterSpacing environment modifier
+  - Added line_height parameter to Text component, and the LineHeight environment modifier
+  - Subscript Operator support via the at and assign methods for custom classes
+  version: '8.11'
+- breaking: false
+  highlights:
+  - Added atan2
+  - New package with Waveform component
+  - New fs package with the Path class for working with filesystem paths
+  - Added path_from_uri function to create a Path from a file URI string
+  version: '8.10'
+- breaking: false
+  highlights:
+  - Strings now support the \r escape sequence, which is especially useful when dealing with text/uri-list mime data
+  - 'Functions and methods now support default arguments: fun my_fun(parameter: Int = 0) {}'
+  version: '8.9'
+- breaking: false
+  highlights:
+  - Added entries property to KSPMenu
+  - Added Help modifier to display help text in the Info Pane
+  version: '8.8'
+- breaking: false
+  highlights:
+  - Added constructor with visible Bool property for Popover and removed experimental close_policy
+  - Arc thickness not constrained to parent frame properties
+  version: 8.5.1
+- breaking: false
+  highlights:
+  - 'Drag and drop modifiers to enable drag and drop functionality on components are now stable: Drag, Drop'
+  - Enums can now be used as keys in maps
+  - Compile time improvements
+  version: '8.5'
+- breaking: false
+  highlights:
+  - KSPButton, KSPKnob, KSPSwitch, and KSPValueEdit expose the KSP property $CONTROL_PAR_TEXT via the text property.
+  - KSPTextEdit adds a setter to the property text
+  - Added experimental close_policy property to Popover
+  - Added TextInput component
+  version: '8.4'
+- breaking: false
+  highlights:
+  - KSPTable exposes length property.
+  version: '8.3'
+- breaking: false
+  highlights:
+  - Fixed an issue where Popover was not displayed when its visible property was initially set to true.
+  - Fixed an issue where Popover was not following its anchor.
+  - Resolved a crash that occurred when the UI was reloaded and a Popover was present.
+  version: 8.2.1
+- breaking: true
+  highlights:
+  - 'Komplete UI Setup In Kontakt: The load_komplete_ui() KSP command was removed. To load the main Komplete UI Package you can now select the
+    module file in the Instrument Options dialog.'
+  - count parameter of subsequence was renamed to length
+  - Array.filter was renamed to filtered
+  version: '8.2'
+- breaking: false
+  highlights:
+  - 'Angle: Helps dealing with degrees and radians conversion'
+  - The components and modifiers that take angles as arguments now use the Angle global class instead of Float type.
+  - 'Maps: A new associative container to store key-value pairs.'
+  version: '8.2'
+current_version: '8.12'
+note: Versioning scheme follows the 'Kontakt X.Y' pattern.
+docs: https://developer.native-instruments.com/komplete-ui/docs/CHANGELOG

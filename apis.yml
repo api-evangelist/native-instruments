@@ -1,23 +1,89 @@
 aid: native-instruments
+
 name: Native Instruments
-description: 'Native Instruments is a company surfaced via the API Evangelist harvest backlog (source:
-  music) and added to the network as a stub for full-pipeline profiling.'
+
+image: http://www.native-instruments.com/cdn/shop/files/Native-instruments-social-share.jpg?v=1787132158
+
+description: Native Instruments creates software and hardware for music production, DJing, and audio engineering. Their portfolio includes the
+  Komplete suite, Maschine, Traktor, and a range of virtual instruments and effects, serving musicians, producers, and sound designers worldwide.
+
 url: https://raw.githubusercontent.com/api-evangelist/native-instruments/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:music
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-22 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-22'
+
 modified: '2026-09-22'
+
 tags:
 - Company
-apis: []
+- Music
+- Software
+- Hardware
+- Audio
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Documentation
+  url: https://docs.native-instruments.com/
+- type: ChangeLog
+  url: changelog/native-instruments-changelog.yml
+- type: LLMsTxt
+  url: llms/native-instruments-llms.txt
+- type: WellKnown
+  url: well-known/native-instruments-well-known.yml
+- type: Hosts
+  url: hosts/native-instruments-hosts.yml
+- type: Vendors
+  url: vendors/native-instruments-vendors.yml
+- type: DomainSecurity
+  url: security/native-instruments-domain-security.yml
 - type: Website
-  url: https://native-instruments.com/
+  url: https://www.native-instruments.com/
+- type: DeveloperPortal
+  url: https://developer.native-instruments.com/
+- type: APIReference
+  url: https://developer.native-instruments.com/komplete-ui/docs/GetStarted/
+- type: GettingStarted
+  url: https://developer.native-instruments.com/komplete-ui/docs/GetStarted/
+- type: Support
+  url: https://support.native-instruments.com/
+- type: Blog
+  url: https://blog.native-instruments.com/
+- type: GitHubOrganization
+  url: https://github.com/NativeInstruments
+- type: Pricing
+  url: https://www.native-instruments.com/collections/all
+- type: SignUp
+  url: https://account.native-instruments.com/
+- type: TermsOfService
+  url: https://www.native-instruments.com/pages/legal-information
+- type: PrivacyPolicy
+  url: https://www.native-instruments.com/pages/legal-information
+
+apis:
+- name: Komplete UI API
+  description: API for the Komplete UI framework used with Kontakt and other Native Instruments products.
+  humanURL: https://developer.native-instruments.com/komplete-ui/docs/GetStarted/
+  baseURL: null
+  method: none
+  source: discovered
+  aid: native-instruments:komplete-ui-api
+x-enrichment:
+  date: '2026-09-22'
+  status: enriched
+  artifacts_added: 13
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local
