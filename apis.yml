@@ -20,7 +20,7 @@ specificationVersion: '0.20'
 
 created: '2026-09-22'
 
-modified: '2026-09-22'
+modified: '2026-10-06'
 
 tags:
 - Company
@@ -36,6 +36,8 @@ maintainers:
   email: info@apis.io
 
 common:
+- url: https://blog.native-instruments.com/feed/
+  type: BlogRSS
 - type: Documentation
   url: https://docs.native-instruments.com/
 - type: ChangeLog
