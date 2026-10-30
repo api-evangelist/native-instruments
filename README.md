@@ -64,5 +64,93 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Native Instruments is a company surfaced via the API Evangelist harvest backlog (source: music) and added to the network as a stub for full-pipeline profiling.
-- https://native-instruments.com/
+Native Instruments creates software and hardware for music production, DJing, and audio engineering. Their portfolio includes the Komplete suite, Maschine, Traktor, and a range of virtual instruments and effects, serving musicians, producers, and sound designers worldwide.
+
+**Areas:** Company · Music · Software · Hardware · Audio
+
+## Native Instruments on APIs.io
+
+Everything profiled for Native Instruments is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/native-instruments/](https://apis.io/providers/native-instruments/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Komplete UI API](https://apis.io/apis/native-instruments/komplete-ui-api/) — API for the Komplete UI framework used with Kontakt and other Native Instruments products.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Native Instruments Domain Security](https://apis.io/security/native-instruments/native-instruments-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.native-instruments.com/)
+- [Documentation](https://docs.native-instruments.com/)
+- [Getting started](https://developer.native-instruments.com/komplete-ui/docs/GetStarted/)
+- [API reference](https://developer.native-instruments.com/komplete-ui/docs/GetStarted/)
+- [Pricing](https://www.native-instruments.com/collections/all)
+- [Sign up](https://account.native-instruments.com/)
+- [Support](https://support.native-instruments.com/)
+- [Blog](https://blog.native-instruments.com/)
+- [Terms of service](https://www.native-instruments.com/pages/legal-information)
+- [Privacy policy](https://www.native-instruments.com/pages/legal-information)
+- [GitHub](https://github.com/NativeInstruments)
+
+## API Evangelist rating
+
+**Kin Score 26.9** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 44.7 |
+
+**Agent readiness 4.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | platform (partial credit) |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/native-instruments/](https://apis.io/providers/native-instruments/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Native Instruments: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/native-instruments/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
